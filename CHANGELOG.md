@@ -15,6 +15,7 @@
 ### Chore
 
 - [#8911](https://github.com/blockscout/blockscout/pull/8911) - Set client_connection_check_interval for main Postgres DB in docker-compose setup
+- [#5322](https://github.com/blockscout/blockscout/pull/5322) - DB denormalization: block consensus and timestamp in transaction table
 
 ## 5.3.2-beta
 
@@ -163,7 +164,6 @@
 - [#8529](https://github.com/blockscout/blockscout/pull/8529) - Move PolygonEdge-related migration to the corresponding ecto repository
 - [#8504](https://github.com/blockscout/blockscout/pull/8504) - Deploy new UI through Makefile
 - [#8501](https://github.com/blockscout/blockscout/pull/8501) - Conceal secondary ports in docker compose setup
-- [#5322](https://github.com/blockscout/blockscout/pull/5322) - DB denormalization: block consensus and timestamp in transaction table
 
 <details>
   <summary>Dependencies version bumps</summary>
